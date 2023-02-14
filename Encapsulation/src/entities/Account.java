@@ -7,14 +7,12 @@ public class Account {
 	private double accountTotal;
 
 	public Account(int accountNumber, String name, double firstDeposit) {
-
 		this.accountNumber = accountNumber;
 		this.name = name;
 		deposit(firstDeposit);
 	}
 
 	public Account(int accountNumber, String name) {
-
 		this.accountNumber = accountNumber;
 		this.name = name;
 	}
